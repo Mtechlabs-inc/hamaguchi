@@ -3,6 +3,12 @@ body {
   font-family: $font-family-base, sans-serif;
   color: $primary-color;
   line-height: normal;
+  background: repeating-linear-gradient(to right, #ff8b11, #ff8b11 20px, #ff972a 20px 40px);
+  margin: 0;
+}
+
+header {
+  background-color: white;
 }
 
 a {
@@ -17,8 +23,4 @@ strong {
 h1,
 h2 {
   font-weight: $fontweight-extrabold;
-}
-
-// Mobile
-@media (max-width: 768px) {
 }
