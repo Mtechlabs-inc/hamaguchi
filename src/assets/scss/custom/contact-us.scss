@@ -1,0 +1,101 @@
+.contact-us {
+   padding-bottom: 2.5rem;
+   position: relative;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   background: repeating-linear-gradient(
+    -55deg,
+    #78AA34,
+    #78AA34 20px,
+    #85B248 20px,
+    #85B248 40px,
+    );
+   @media only screen and (min-width: 1024px) {
+        padding-bottom: 5rem
+    }
+}
+
+.contact-us-header {
+    position: relative;
+    padding: 2.5rem 1.25rem;
+    background-color: $secondary-color-3;
+    box-sizing: border-box;
+    margin-bottom: 2.75rem;
+    @media only screen and (min-width: 1024px) {
+        padding: 2.813rem 1.25rem;
+        margin-bottom: 3.75rem;
+    }
+    &:before {
+        content:'';
+        display:block;
+        width:0;
+        height:0;
+        position:absolute;
+        z-index: 999;
+        border-left: solid transparent 16px;
+        border-right: solid transparent 16px;
+        border-top: solid $secondary-color-3 24px;
+        bottom: -24px;
+        left: 50%;
+        transform: translateX(-50%);
+        @media only screen and (min-width: 1024px) {
+            border-left: solid transparent 28px;
+            border-right: solid transparent 28px;
+            border-top: solid $secondary-color-3 44px;
+            bottom: -43px;
+        }
+    }
+}
+
+.contact-us-title {
+    margin: 0;
+    text-align: center;
+
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: $tertiary-color;
+    box-sizing: border-box;
+    @media only screen and (min-width: 1024px) {
+        font-size: 2.5rem;
+    }
+}
+
+.contact-us-buttons {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (min-width: 1024px) {
+        flex-direction: row;
+        font-size: 2rem;
+        gap: 2.5rem;
+    }
+}
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: $tertiary-color;
+    height: 80px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 334px;
+    @media only screen and (min-width: 1024px) {
+        font-size: 2rem;
+        height: 140px;
+        max-width: 580px;
+    }
+}
+.contact-button--tel {
+    font-family: $font-family-secondary;
+    background-color: $hamaguchi-blue;
+    
+}
+.contact-button--email {
+    background-color: $hamaguchi-gold;
+    color: $tertiary-color;
+}
