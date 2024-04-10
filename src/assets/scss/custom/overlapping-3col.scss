@@ -42,7 +42,7 @@
 
   .text-container {
     max-width: 430px;
-    min-height: 492px;
+    min-height: 100%;
     padding: 45px;
     background-color: white;
     color: $primary-color;
@@ -115,7 +115,7 @@
 
   .text-container {
     max-width: 430px;
-    min-height: 492px;
+    height: 492px;
     padding: 45px;
     background-color: white;
     color: $primary-color;
