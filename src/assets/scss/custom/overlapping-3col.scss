@@ -30,16 +30,41 @@
   }
 
   .grid-container {
+    position: relative;
+    z-index: 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 55px;
+    .ball--green {
+      width: 196px;
+      bottom: -160px;
+      left: initial;
+      transform: initial;
+      top: initial;
+      right: -56px;
+      z-index: -1;
+    }
+    .ball--orange {
+      width: 242px;
+      bottom: -160px;
+      left: -96px;
+      transform: initial;
+      top: -28px;
+      right: initial;
+      z-index: -1;
+    }
   }
 
   .grid-item {
     position: relative;
+    z-index: 3;
   }
 
+ 
+
   .text-container {
+    position: relative;
+    z-index: 10;
     max-width: 430px;
     min-height: 100%;
     padding: 45px;
@@ -110,3 +135,6 @@
     }
   }
 }
+
+
+
