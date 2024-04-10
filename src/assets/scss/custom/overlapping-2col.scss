@@ -149,3 +149,41 @@
   }
   
 }
+
+
+
+.overlapping-2col {
+  .block {
+    position: relative;
+  }
+  .block-right {
+    position: relative;
+    z-index: 3;
+  }
+}
+
+.ball {
+  position: absolute;
+  width: 242px;
+  z-index: 2;
+  display: none;
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
+}
+.ball--orange {
+  right: -80px;
+  top: -36px;
+}
+
+.ball--blue {
+  width: 168px;
+  top: -24px;
+  left: -46px;
+}
+
+.ball--green {
+  width: 158px;
+  right: -80px;
+  top: -12px;
+}
