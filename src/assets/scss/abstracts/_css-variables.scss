@@ -1,8 +1,0 @@
-// override :root -bs-body-font-family
-:root {
-  --bs-body-color: #ffffff;;
-
-  @each $spacer, $value in $spacers {
-    --bs-#{$spacer}: #{$value};
-  }
-}
