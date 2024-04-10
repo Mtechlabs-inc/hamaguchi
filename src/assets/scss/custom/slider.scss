@@ -1,0 +1,58 @@
+// Banner Slider
+.swiper {
+  width: 100%;
+  height: 100%;
+  max-height: 900px;
+  position: relative;
+
+  .swiper-wrapper {
+    .swiper-slide img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Overlay color with opacity */
+    }
+
+    /* Style for the text container */
+    .slide-text {
+      color: #fff;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      transform: translate(0, -50%);
+
+      h2 {
+        font-weight: $fontweight-extrabold;
+        font-size: 48px;
+      }
+    }
+  }
+
+  .global-text {
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(0, -50%);
+    font-size: 78px;
+    z-index: 1;
+  }
+
+  .global-img-container {
+    z-index: 1;
+    width: 100%;
+    max-width: 344px;
+    height: 100%;
+    max-height: 399px;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+  }
+}

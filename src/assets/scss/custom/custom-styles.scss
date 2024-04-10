@@ -1,0 +1,25 @@
+// Global styles
+body {
+  font-family: $font-family-base, sans-serif;
+  font-style: $fontweight-regular;
+  color: $primary-color;
+  line-height: normal;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: var(--bs-font-weight-extrabold);
+}
+
+h1,
+h2 {
+  font-weight: $fontweight-extrabold;
+}
+
+// Mobile
+@media (max-width: 768px) {
+}
