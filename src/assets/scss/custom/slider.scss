@@ -60,6 +60,19 @@
     max-height: 399px;
     position: absolute;
     bottom: 0;
-    right: 5%;
+    right: 0;
+    display: block;
+    max-height: 324px;
+    @media only screen and (min-width: 1024px) {
+      max-height: 399px;
+      right: 5%;
+    }
+    img {
+      max-width: 280px;
+      height: auto;
+      @media only screen and (min-width: 1024px) {
+        max-width: 360px;
+      }
+    }
   }
 }
