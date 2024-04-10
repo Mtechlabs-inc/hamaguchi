@@ -1,0 +1,27 @@
+.grid-2col {
+    display: flex;
+    justify-content: center;
+    background: repeating-linear-gradient(to right, #ff8b11, #ff8b11 20px, #ff972a 20px 40px);
+
+    .grid-container {
+        background-color: #fff;
+        padding: 100px 170px;
+        max-width: 1400px;
+
+        .grid-item {
+            display: flex;
+
+            > img {
+                max-width: 340px;
+            }
+        }
+
+        .text-container {
+            max-width: 560px;
+            
+            > p {
+                color: black;
+            }
+        }
+    }
+}
