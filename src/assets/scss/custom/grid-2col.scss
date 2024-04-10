@@ -1,0 +1,109 @@
+.grid-2col {
+    background: repeating-linear-gradient(to right, #ff8b11, #ff8b11 20px, #ff972a 20px 40px);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .section-title-desc {
+        font-size: 40px;
+        color: white;
+    }
+
+    .grid-container {
+        background-color: #fff;
+        padding: 100px 170px;
+        max-width: 1400px;
+        box-sizing: border-box;
+
+        .grid-item {
+            display: flex;
+            padding: 70px 0 80px;
+            border-bottom: 1px solid #707070;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            >img {
+                max-width: 340px;
+            }
+
+            .text-container {
+                width: 100%;
+                max-width: 560px;
+                padding-left: 80px;
+
+                p {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .line-container {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 1320px;
+
+        >.grid-container {
+            color: #fff;
+            box-sizing: border-box;
+            background-color: #03c152;
+            justify-content: space-between;
+            width: 100%;
+            margin: 90px 0 100px;
+            padding: 35px 200px 35px 50px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+
+            > p {
+                margin: 0;
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .grid-2col {
+        .grid-container{
+            max-width: 600px;
+            padding: 40px;
+    
+            .grid-item {
+                padding: 0;
+                flex-direction: column;
+    
+                > img {
+                    width: 100%;
+                    height: 100%;
+                    max-width: 100%;
+                }
+    
+                .text-container {
+                    padding: 0;
+                }
+            }
+        }
+
+        .line-container {
+            display: flex;
+            justify-content: center;
+
+
+            .grid-container {
+                flex-direction: column;
+                padding: 23px 38px 30px 72px;
+
+                > p {
+                    margin: 15px 0 0;
+                    font-size: 32px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
