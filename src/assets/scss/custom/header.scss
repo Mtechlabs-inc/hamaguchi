@@ -70,6 +70,7 @@ header {
       align-items: center;
 
       > a {
+        display: flex;
         width: 100%;
         margin-right: 23px;
         text-wrap: nowrap;
@@ -79,6 +80,10 @@ header {
         color: #fff;
         background-color: $secondary-link-bg-color;
         font-size: 20px;
+      }
+
+      > a img {
+        padding-right: 11px;
       }
 
       .social-icons-container .grid-container {
