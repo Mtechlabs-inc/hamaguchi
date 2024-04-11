@@ -15,4 +15,15 @@ import "jquery-match-height";
 document.addEventListener("DOMContentLoaded", function () {
   $(".icon-wrapper").matchHeight();
   $(".text-title").matchHeight();
+
+  const scrollToTopButton = document.getElementById("scrollToTop");
+    scrollToTopButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        // Scroll to the top of the page smoothly
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+  
 });
