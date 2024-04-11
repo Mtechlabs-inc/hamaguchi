@@ -44,10 +44,13 @@
       flex-grow: 2;
       justify-content: center;
       align-items: center;
-      max-width: 57.1875rem;
+      max-width: 37.5rem;
       display: flex;
       position: relative;
       border-radius: .625rem;
+      @media only screen and (min-width: 1024) {
+        max-width: 57.1875rem;
+      }
 
       h2 {
         padding-left: 12.5rem;
