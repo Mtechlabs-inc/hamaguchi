@@ -13,6 +13,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
 
   <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="./assets/scss/main.scss">
@@ -27,7 +30,7 @@
     <div class="menu-container">
       <div class="main-menu">
         <div class="logo">
-          <a href="#">リサイクルはまちゃん</a>
+          <a href="#" id="scrollToTop">リサイクルはまちゃん</a>
         </div>
         <div class="menu-links">
           <a class="telephone" href="tel:012-0514-420">TEL. 0120-514-420</a>
@@ -365,7 +368,7 @@
       </ul>
   
       <div class="google-map-embedd">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.354385427294!2d134.04380597520685!3d34.72146058209957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554126fd6a578f1%3A0x458702f4d3ca54e2!2s240%20Setoch%C5%8Doki%2C%20Higashi%20Ward%2C%20Okayama%2C%20709-0855%2C%20Japan!5e0!3m2!1sen!2sph!4v1712725222236!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.4240489362974!2d135.70491887555283!3d34.84557087286851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60011ba92cc2880f%3A0x50f1100ebf08ac7d!2z5pel5pys44CB44CSNTczLTAxMDIg5aSn6Ziq5bqc5p6a5pa55biC6ZW35bC-5a625YW355S677yR5LiB55uu77yX4oiS77yX!5e0!3m2!1sja!2sph!4v1712824865635!5m2!1sja!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
 
@@ -380,9 +383,9 @@
   var swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
-    autoplay: {
-      delay: 3000,
-    },
+    // autoplay: {
+    //   delay: 3000,
+    // },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
