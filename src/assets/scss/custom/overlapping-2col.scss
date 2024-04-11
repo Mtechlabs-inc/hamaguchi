@@ -142,6 +142,32 @@
         font-size: 28px;
       }
     }
+
+    .block {
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+      .block-left {
+        width: 100%;
+
+        > img {
+          left: 50%;
+          width: 100%;
+          top: -100px;
+          transform: translate(-50%, 0);
+        }
+      }
+
+      .block-right > h2 {
+        padding: 100px 20px;
+      }
+    }
+
+    .block.reverse {
+      .block-right > h2 {
+        padding: 100px 20px;
+      }
+    }
   }
 
 }
@@ -168,7 +194,8 @@
   }
 }
 .ball--orange {
-  right: -80px;
+  // right: -80px;
+  right: 0;
   top: -36px;
 }
 
@@ -180,6 +207,7 @@
 
 .ball--green {
   width: 158px;
-  right: -80px;
+  // right: -80px;
+  right: 0;
   top: -12px;
 }
