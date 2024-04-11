@@ -1,18 +1,4 @@
-# Parcel Bootstrap SCSS Boilerplate
-
-### The objective of this project is to implement a clone page using Parcel as bundler, Bootstrap as a CSS framework and SCSS as a preprocessor.
-
-
-This project is a trial task exam from one of the companies I applied.
-This is to clone a section of the www.pianote.com (play your favorite songs) and ensure that it's mobile and tablet responsive.
-
-
-# What I learned:
-
-* parcel bundler
-* bootstrap, scss, fontawesome icons integration to parcel
-* display:grid CSS layout styling
-* svg and video HTML tags
+# HAMAGUCHI
 
 # HOW TO INSTALL
 1. Download the project to your local
@@ -26,13 +12,3 @@ Optional if you want to run via development mode:
 
 
 ## Demo Site:
-https://parcel-bootstrap-sass-boilerplate.netlify.app/
-
-
-## Screenshots:
-
-## How to tweak this project for your own use:
-I would recommend you to clone and rename this project so that you can use it for your own needs as it is an example project. This boilerplate is a nice place to start.
-
-## Find a bug?
-Please use the issue tab above to report any problems you encountered or suggestions you have for improving this project. Please make mention to the issue you created if you would like to submit a pull request. I'm grateful.
